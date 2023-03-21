@@ -1,17 +1,45 @@
 # Job Finder
 
-Job Finder app built with React Native.
+Find jobs using this app.
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+## Tech Stack
 
-## 🚀 How to use
+**Client:** React Native
 
-```sh
-npx create-react-native-app -t with-router
+**Server:** [JSearch API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch)
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`RAPID_API_KEY` - This app uses JSearch API for finding jobs. You will need to subscribe to the [JSearch API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch) to make requests.
+
+## Run Locally
+
+Clone the project
+
+```cmd
+  git clone https://github.com/vaibbhavk/job-finder-react-native.git
 ```
 
-## 📝 Notes
+Go to the project directory
 
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
-- [Request for Comments](https://github.com/expo/router/discussions/1)
+```cmd
+  cd job-finder-react-native
+```
+
+Install dependencies
+
+```cmd
+  npm install
+```
+
+Start the server
+
+```cmd
+  npx expo start
+```
+
+## Authors
+
+- [@vaibbhavk](https://www.github.com/vaibbhavk)
